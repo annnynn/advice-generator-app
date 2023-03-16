@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Be+Vietnam+Pro:wght@400;500;700;800&family=Big+Shoulders+Display:wght@900&family=Chivo&family=Hanken+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;700&family=Josefin+Sans:wght@300;400;600&family=Kumbh+Sans:wght@400;700;800&family=Manrope:wght@800&family=Open+Sans&family=Outfit:wght@300&family=Plus+Jakarta+Sans:wght@700;800&family=Poppins:wght@200;300;400;600&family=Raleway:wght@400;700&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary--light-cyan: hsl(193, 38%, 86%);
+    --primary--neon-green: hsl(150, 100%, 66%);
+    --neutral--grayish--blue: hsl(217, 19%, 38%);
+    --dark--grayish--blue: hsl(217, 19%, 24%);
+    --dark--blue: hsl(218, 23%, 16%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--dark--blue);
+    min-height: 100vh;
+}
+
+.advice-generator {
+    width: 100%;
+    max-width: 343px;
+    height: 315px;
+    background-color: var(--dark--grayish--blue);
+    border-radius: 10px;
+}
+
+.output-advice {
+    padding: 40px 24px 32px 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.advice-number {
+    font-size: 11px;
+    line-height: 15.03px;
+    letter-spacing: 3.46px;
+    color: var(--primary--neon-green);
+    font-weight: 800;
+}
+
+.advice-quote {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    color: whitesmoke
+}
+
+.divider-image {
+    background-image: url(/images/pattern-divider-mobile.svg);
+    width: 295px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position-y: 90%;
+    background-position-x: center;
+}
+
+button {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: var(--primary--neon-green);
+    border: 0;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 20px var(--primary--neon-green);
+}
+
+button:hover, img{
+    transform: rotate(180deg);
+}
+
+@media (min-width: 1440px) {
+
+    .advice-generator {
+        position: relative;
+        max-width: 540px;
+        height: 332px;
+    }
+
+    .advice-quote {
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: -0.3px;
+    }
+
+    .output-advice {
+        padding: 48px 48px 40px 48px;
+    }
+
+    .divider-image {
+        background-image: url(/images/pattern-divider-desktop.svg);
+        width: 444px;
+    }
+
+}
