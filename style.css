@@ -28,13 +28,13 @@ body {
     position: relative;
     width: 100%;
     max-width: 343px;
-    height: 315px;
     background-color: var(--dark--grayish--blue);
     border-radius: 10px;
+    padding-bottom: 62px;
 }
 
 .output-advice {
-    padding: 40px 24px 32px 24px;
+    padding: 40px 24px 0px 24px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -93,7 +93,7 @@ button:hover, img{
     .advice-generator {
         position: relative;
         max-width: 540px;
-        height: 332px;
+       
     }
 
     .advice-quote {
@@ -104,7 +104,7 @@ button:hover, img{
     }
 
     .output-advice {
-        padding: 48px 48px 40px 48px;
+        padding: 48px 48px 0px 48px;
     }
 
     .divider-image {

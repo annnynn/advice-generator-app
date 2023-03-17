@@ -6,7 +6,6 @@ const adviceQuote = document.querySelector(".advice-quote");
 async function generate() {
     const response = await fetch("https://api.adviceslip.com/advice");
     const advice = await response.json();
-    console.log(advice);
 
     document.querySelector(".advice-number").innerText = `ADVICE #${advice.slip.id}`;
     document.querySelector(".advice-quote").innerText = `"${advice.slip.advice}"`
