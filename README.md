@@ -5,15 +5,15 @@
 
 #What i learned
 
-1. What is API
-2. What is Json
-3. How to fetch data 
-4. Object Literals
+- What is API
+- What is Json
+- How to fetch data 
+- Object Literals
 
 
 #Resources 
 
-1.https://api.adviceslip.com/
-2.https://www.youtube.com/watch?v=DHvZLI7Db8E
-3.https://www.youtube.com/watch?v=SjjmHNdE32Y
-4.https://blogharsh.medium.com/advice-generator-app-in-javascript-lets-do-it-25e225b8e7fd
+1. https://api.adviceslip.com/
+2. https://www.youtube.com/watch?v=DHvZLI7Db8E
+3. https://www.youtube.com/watch?v=SjjmHNdE32Y
+4. https://blogharsh.medium.com/advice-generator-app-in-javascript-lets-do-it-25e225b8e7fd
